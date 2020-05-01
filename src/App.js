@@ -98,7 +98,7 @@ const App = () => {
           setDummy('sx_main', tmp);
 
           axios
-            .post('/predict', tmp)
+            .post('api/predict', tmp)
             .then(({ data }) => {
               setResponse(data);
             })
