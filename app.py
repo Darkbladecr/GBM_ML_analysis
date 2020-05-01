@@ -3,6 +3,9 @@ import joblib
 import pandas as pd
 
 app = Flask(__name__)
+@app.route('/')
+def index():
+    return "<p>Hello World</p>"
 @app.route('/predict', methods=['POST'])
 def predict():
     json_ = request.get_json(force=True)
