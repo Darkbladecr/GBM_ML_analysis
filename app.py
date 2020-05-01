@@ -1,13 +1,17 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 import joblib
 import pandas as pd
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='', 
+            static_folder='build/',
+            template_folder='build/')
 @app.route('/')
 def index():
-    return "<p>Hello World</p>"
+    return render_template('index.html')
 @app.route('/predict', methods=['POST'])
 def predict():
+    lr = joblib.load('model.pkl')
+    model_columns = joblib.load('model_columns.pkl')
     json_ = request.get_json(force=True)
     df = pd.DataFrame([json_])
     for col in model_columns:
@@ -21,6 +25,4 @@ def predict():
 
 
 if __name__ == '__main__':
-    lr = joblib.load('model.pkl')
-    model_columns = joblib.load('model_columns.pkl')
     app.run(threaded=True, port=8080)
