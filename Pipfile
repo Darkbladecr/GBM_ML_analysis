@@ -6,9 +6,10 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pandas = "==1.0.3"
-joblib = "==0.14.1"
 sklearn = "*"
+pandas = "*"
+joblib = "*"
+flask = "*"
 
 [requires]
 python_version = "3.7"
