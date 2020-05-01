@@ -1,0 +1,490 @@
+sex,diagnosis_age,days_survived,dead,treatment,tumor_side,tumor_location,idh_status,mgmt_mean,ps_preop,ps_postop,sx_duration,chemo,radiotherapy,sx_main,alive_6months,alive_12months,alive_18months
+male,67,3,1,Biopsy,left,Thalamus,0,,2.0,,10.0,0,0,deficit,0,0,0
+male,66,5,1,Biopsy,left,Insula,0,,1.0,4.0,91.0,0,0,seizure,0,0,0
+male,61,5,1,Biopsy,left,Insula,0,,0.0,,14.0,0,0,headache,0,0,0
+male,64,7,1,Gross Total Resection,right,Frontal lobe,0,64.0,1.0,,28.0,0,0,deficit,0,0,0
+male,27,8,1,Biopsy,right,Parietal lobe,0,,4.0,4.0,56.0,0,0,deficit,0,0,0
+male,68,8,1,Gross Total Resection,right,Temporal lobe,0,43.0,1.0,,15.0,0,0,headache,0,0,0
+female,52,9,1,Biopsy,left,Thalamus,0,2.1,,4.0,1.0,0,0,deficit,0,0,0
+female,60,11,1,Biopsy,right,Thalamus,0,,,,2.0,0,30,deficit,0,0,0
+male,75,11,1,Debulking,left,Temporal lobe,0,30.0,1.0,1.0,42.0,0,0,deficit,0,0,0
+male,63,12,1,Gross Total Resection,left,Frontal lobe,0,2.3,0.0,0.0,21.0,0,0,deficit,0,0,0
+male,63,12,1,Gross Total Resection,left,Temporal lobe,0,5.0,1.0,,21.0,0,0,headache,0,0,0
+female,84,13,1,Gross Total Resection,right,Occipital lobe,0,44.0,0.0,1.0,1.0,0,30,deficit,0,0,0
+male,74,13,1,Biopsy,left,Parietal lobe,0,75.0,1.0,,28.0,0,0,headache,0,0,0
+male,54,14,1,Gross Total Resection,left,Frontal lobe,0,3.6,0.0,3.0,14.0,0,0,deficit,0,0,0
+female,62,17,1,Biopsy,right,Temporal lobe,0,53.0,4.0,4.0,14.0,0,0,headache,0,0,0
+female,65,22,1,Subtotal Resection,right,Frontal lobe,0,60.0,1.0,1.0,2.0,0,0,deficit,0,0,0
+male,62,24,1,Biopsy,right,Temporal lobe,0,54.0,2.0,2.0,42.0,0,0,deficit,0,0,0
+female,64,24,1,Biopsy,right,Frontal lobe,0,6.8,3.0,4.0,91.0,0,0,deficit,0,0,0
+male,83,28,1,Biopsy,left,Frontal lobe,0,17.5,,2.0,42.0,0,0,deficit,0,0,0
+male,70,29,1,Biopsy,right,Parietal lobe,0,8.0,0.0,,14.0,0,0,deficit,0,0,0
+male,69,30,1,Biopsy,right,External capsule,0,,1.0,3.0,365.0,0,0,seizure,0,0,0
+female,57,31,1,Debulking,left,Temporal lobe,0,6.75,1.0,2.0,35.0,0,0,deficit,0,0,0
+male,70,31,1,Biopsy,right,Frontal lobe,0,2.6,0.0,2.0,14.0,0,0,deficit,0,0,0
+female,66,31,1,Debulking,right,Temporal lobe,0,40.0,,,10.0,0,0,deficit,0,0,0
+female,64,32,1,Biopsy,left,Parietal lobe,0,2.0,1.0,3.0,7.0,0,0,deficit,0,0,0
+female,69,33,1,Biopsy,right,Parietal lobe,0,7.5,1.0,,121.0,0,0,deficit,0,0,0
+male,54,34,1,Biopsy,right,Parietal lobe,0,,0.0,,2.0,0,30,deficit,0,0,0
+female,58,34,1,Biopsy,right,Frontal lobe,0,,0.0,,7.0,0,0,deficit,0,0,0
+male,65,34,1,Gross Total Resection,left,Temporal lobe,0,46.0,1.0,2.0,42.0,0,0,headache,0,0,0
+male,73,34,1,Debulking,left,Temporal lobe,0,5.0,1.0,1.0,7.0,0,0,deficit,0,0,0
+female,75,35,1,Gross Total Resection,left,Frontal lobe,0,47.25,0.0,2.0,1.0,0,0,seizure,0,0,0
+female,61,36,1,Biopsy,right,Frontal lobe,0,5.0,3.0,3.0,,0,0,seizure,0,0,0
+male,36,36,1,Debulking,left,Frontal lobe,1,53.0,1.0,1.0,42.0,0,0,seizure,0,0,0
+male,65,36,1,Biopsy,right,Frontal lobe,0,3.0,2.0,2.0,,0,30,deficit,0,0,0
+female,81,36,1,Biopsy,right,Frontal lobe,0,15.0,,,7.0,0,0,deficit,0,0,0
+female,78,36,1,Biopsy,right,Frontal lobe,0,7.0,2.0,2.0,14.0,0,0,deficit,0,0,0
+male,48,39,1,Biopsy,right,Parietal lobe,0,47.0,4.0,,14.0,0,0,deficit,0,0,0
+male,71,39,1,Biopsy,Both,Corpus callosum,0,19.0,2.0,2.0,21.0,0,30,seizure,0,0,0
+male,72,40,1,Biopsy,left,Frontal lobe,0,14.5,1.0,,28.0,0,30,seizure,0,0,0
+female,77,40,1,Biopsy,left,Temporal lobe,0,35.0,1.0,,28.0,0,0,deficit,0,0,0
+male,70,40,1,Biopsy,right,Parietal lobe,0,44.0,,3.0,21.0,0,0,deficit,0,0,0
+male,83,41,1,Biopsy,right,Parietal lobe,0,2.8,0.0,2.0,28.0,0,30,deficit,0,0,0
+male,72,41,1,Debulking,left,Temporal lobe,0,15.6,2.0,,,0,0,deficit,0,0,0
+female,52,43,1,Biopsy,Both,Cerebellum,0,10.0,2.0,,4.0,0,0,deficit,0,0,0
+female,74,46,1,Biopsy,right,Parietal lobe,0,4.0,1.0,4.0,,0,0,deficit,0,0,0
+female,54,46,1,Biopsy,left,Temporal lobe,0,,2.0,3.0,7.0,0,0,deficit,0,0,0
+male,65,47,1,Biopsy,Both,Corpus callosum,0,3.5,1.0,1.0,,0,0,deficit,0,0,0
+male,64,50,1,Biopsy,right,Frontal lobe,0,,2.0,3.0,91.0,0,0,deficit,0,0,0
+female,74,50,1,Biopsy,right,Occipital lobe,0,,,,7.0,0,0,deficit,0,0,0
+male,79,52,1,Gross Total Resection,right,Occipital lobe,0,29.0,0.0,0.0,14.0,0,0,deficit,0,0,0
+male,65,53,1,Subtotal Resection,left,Frontal lobe,0,52.0,1.0,2.0,28.0,0,0,deficit,0,0,0
+male,68,55,1,Debulking,right,Frontal lobe,0,6.0,1.0,,1.0,0,0,deficit,0,0,0
+female,71,55,1,Biopsy,right,Parietal lobe,0,42.0,2.0,2.0,28.0,0,0,deficit,0,0,0
+female,69,55,1,Biopsy,left,Frontal lobe,0,3.75,3.0,3.0,21.0,0,0,deficit,0,0,0
+male,52,58,1,Gross Total Resection,left,Parietal lobe,0,4.5,,1.0,,1,60,,0,0,0
+male,69,59,1,Biopsy,right,Temporal lobe,0,18.5,,2.0,91.0,0,30,deficit,0,0,0
+female,67,60,1,Subtotal Resection,right,Parietal lobe,0,6.0,,3.0,3.0,0,0,deficit,0,0,0
+female,59,60,0,Subtotal Resection,left,Temporal lobe,0,7.0,1.0,0.0,56.0,1,60,seizure,0,0,0
+male,74,61,1,Biopsy,left,Temporal lobe,0,4.0,,2.0,14.0,0,30,deficit,0,0,0
+female,75,62,1,Biopsy,right,Frontal lobe,0,4.0,1.0,2.0,2.0,0,30,deficit,0,0,0
+male,73,63,1,Biopsy,right,Thalamus,0,3.0,1.0,2.0,,0,30,deficit,0,0,0
+male,76,63,0,Debulking,right,Temporal lobe,0,36.0,0.0,,,1,60,deficit,0,0,0
+female,73,64,1,Biopsy,left,Frontal lobe,0,26.6,1.0,3.0,14.0,0,0,deficit,0,0,0
+female,73,64,1,Biopsy,right,Temporal lobe,0,8.0,,3.0,21.0,0,0,deficit,0,0,0
+female,54,64,1,Subtotal Resection,right,Frontal lobe,0,3.0,1.0,3.0,21.0,0,0,deficit,0,0,0
+female,55,65,1,Biopsy,right,Temporal lobe,0,5.5,1.0,2.0,56.0,0,0,seizure,0,0,0
+male,68,66,1,Biopsy,right,Frontal lobe,0,12.8,1.0,0.0,8.0,0,30,deficit,0,0,0
+male,65,66,1,Subtotal Resection,left,Frontal lobe,0,21.0,1.0,3.0,7.0,0,0,deficit,0,0,0
+male,58,67,1,Subtotal Resection,right,Temporal lobe,0,2.0,2.0,3.0,,0,0,,0,0,0
+female,68,70,1,Biopsy,left,Thalamus,0,16.5,,,,0,0,deficit,0,0,0
+male,56,70,1,Biopsy,left,Frontal lobe,0,50.0,2.0,2.0,21.0,0,0,deficit,0,0,0
+female,72,70,1,Biopsy,right,Thalamus,0,47.0,4.0,3.0,91.0,0,0,deficit,0,0,0
+male,74,70,0,Gross Total Resection,left,Frontal lobe,0,6.0,0.0,0.0,4.0,0,40,deficit,0,0,0
+male,70,72,1,Gross Total Resection,right,Parietal lobe,0,18.0,0.0,2.0,1.0,0,0,deficit,0,0,0
+male,72,73,1,Biopsy,left,Frontal lobe,0,54.0,2.0,3.0,182.0,0,0,deficit,0,0,0
+female,62,73,1,Biopsy,right,Parietal lobe,0,1.5,0.0,1.0,91.0,0,30,deficit,0,0,0
+male,77,74,1,Subtotal Resection,left,Parietal lobe,0,53.0,1.0,,1.0,0,30,deficit,0,0,0
+male,67,74,1,Gross Total Resection,right,Frontal lobe,0,5.3,,,28.0,1,60,headache,0,0,0
+female,61,74,1,Biopsy,right,Parietal lobe,0,4.0,1.0,,28.0,0,0,deficit,0,0,0
+female,75,74,0,Debulking,left,Frontal lobe,0,47.0,,2.0,1.0,0,30,deficit,0,0,0
+male,75,75,1,Biopsy,right,Frontal lobe,0,2.88,1.0,,,0,0,deficit,0,0,0
+female,54,76,1,Debulking,right,Temporal lobe,0,3.0,2.0,1.0,182.0,0,30,seizure,0,0,0
+male,65,77,1,Biopsy,right,Parietal lobe,0,3.0,1.0,2.0,14.0,0,30,deficit,0,0,0
+male,70,80,1,Biopsy,right,Temporal lobe,0,8.0,1.0,,,0,30,deficit,0,0,0
+male,52,82,1,Debulking,right,Parietal lobe,0,4.1,1.0,2.0,,0,0,deficit,0,0,0
+male,67,82,1,Biopsy,right,Temporal lobe,0,5.0,2.0,2.0,7.0,0,0,deficit,0,0,0
+male,44,82,1,Subtotal Resection,left,Frontal lobe,0,3.0,,2.0,91.0,0,30,seizure,0,0,0
+female,68,83,1,Debulking,right,Occipital lobe,0,3.8,,,35.0,0,0,deficit,0,0,0
+female,70,83,1,Debulking,left,Frontal lobe,0,4.7,1.0,,91.0,0,0,deficit,0,0,0
+female,73,83,1,Biopsy,left,Insula,0,4.0,3.0,3.0,1.0,1,60,deficit,0,0,0
+male,59,84,1,Subtotal Resection,left,Temporal lobe,0,4.6,,3.0,91.0,0,0,deficit,0,0,0
+male,64,84,1,Biopsy,left,Temporal lobe,0,6.0,1.0,1.0,56.0,0,30,deficit,0,0,0
+male,52,84,1,Biopsy,right,Temporal lobe,0,4.0,0.0,1.0,1.0,0,0,deficit,0,0,0
+female,78,85,1,Biopsy,left,Occipital lobe,0,4.0,1.0,,91.0,0,0,deficit,0,0,0
+female,69,86,1,Subtotal Resection,right,Temporal lobe,0,5.0,0.0,,7.0,0,0,deficit,0,0,0
+female,47,87,1,Biopsy,right,Parietal lobe,0,63.0,0.0,0.0,3.0,0,30,deficit,0,0,0
+male,73,88,1,Gross Total Resection,right,Parietal lobe,0,2.0,0.0,2.0,5.0,0,0,deficit,0,0,0
+male,67,89,1,Biopsy,right,Frontal lobe,0,56.0,1.0,1.0,1.0,1,60,seizure,0,0,0
+male,49,90,1,Biopsy,left,Temporal lobe,0,2.0,0.0,1.0,,0,30,,0,0,0
+male,55,91,1,Subtotal Resection,left,Temporal lobe,0,37.0,0.0,1.0,14.0,0,0,seizure,0,0,0
+male,65,92,1,Subtotal Resection,left,Frontal lobe,0,4.0,,3.0,7.0,0,30,deficit,0,0,0
+male,66,92,1,Subtotal Resection,right,Temporal lobe,0,12.3,1.0,2.0,91.0,0,30,deficit,0,0,0
+female,78,92,1,Biopsy,right,Frontal lobe,0,19.5,0.0,1.0,28.0,1,60,seizure,0,0,0
+female,72,92,1,Gross Total Resection,right,Temporal lobe,0,17.0,1.0,1.0,7.0,1,40,deficit,0,0,0
+male,68,94,1,Gross Total Resection,right,Temporal lobe,0,55.0,1.0,2.0,21.0,0,30,deficit,0,0,0
+male,72,94,1,Biopsy,left,Temporal lobe,0,2.9,2.0,,7.0,0,30,deficit,0,0,0
+female,65,94,1,Biopsy,left,Frontal lobe,0,3.0,0.0,1.0,91.0,1,60,headache,0,0,0
+male,47,94,0,Gross Total Resection,left,Insula,0,3.0,1.0,1.0,28.0,1,60,headache,0,0,0
+male,59,95,1,Subtotal Resection,right,Temporal lobe,0,,1.0,1.0,121.0,0,0,deficit,0,0,0
+male,49,95,1,Biopsy,right,Frontal lobe,0,,,,730.0,0,0,headache,0,0,0
+male,76,96,1,Debulking,left,Frontal lobe,0,24.0,1.0,2.0,10.0,0,0,deficit,0,0,0
+male,76,96,1,Biopsy,right,Parietal lobe,0,3.0,1.0,1.0,28.0,1,60,deficit,0,0,0
+female,59,97,1,Debulking,left,Frontal lobe,0,4.0,2.0,1.0,7.0,0,0,deficit,0,0,0
+male,78,98,1,Gross Total Resection,right,Frontal lobe,0,5.8,0.0,,28.0,0,0,seizure,0,0,0
+male,57,98,0,Gross Total Resection,left,Frontal lobe,0,5.0,1.0,1.0,,0,30,deficit,0,0,0
+female,67,99,1,Debulking,left,Temporal lobe,0,71.0,,,182.0,1,60,deficit,0,0,0
+female,58,99,1,Biopsy,right,Frontal lobe,0,17.6,0.0,0.0,5.0,1,60,deficit,0,0,0
+male,65,99,1,Debulking,right,Frontal lobe,0,2.0,1.0,,21.0,1,60,deficit,0,0,0
+male,68,102,1,Biopsy,left,Parietal lobe,0,5.0,2.0,2.0,121.0,0,0,deficit,0,0,0
+female,71,102,1,Biopsy,right,Parietal lobe,0,34.0,1.0,1.0,7.0,0,30,deficit,0,0,0
+male,61,105,1,Gross Total Resection,right,Temporal lobe,0,21.0,1.0,1.0,14.0,0,40,deficit,0,0,0
+male,61,105,1,Subtotal Resection,left,Occipital lobe,0,35.0,,2.0,70.0,1,60,headache,0,0,0
+male,66,107,1,Debulking,left,Parietal lobe,0,85.0,1.0,2.0,1.0,0,0,seizure,0,0,0
+female,51,108,1,Biopsy,right,Parietal lobe,0,18.0,0.0,1.0,56.0,0,30,deficit,0,0,0
+male,74,108,1,Subtotal Resection,left,Temporal lobe,0,10.0,2.0,2.0,28.0,1,60,headache,0,0,0
+female,60,109,0,Debulking,left,Temporal lobe,0,5.0,1.0,1.0,,1,60,seizure,0,0,0
+female,64,112,1,Debulking,right,External capsule,0,3.8,,4.0,150.0,0,0,seizure,0,0,0
+male,77,112,0,Biopsy,right,Parietal lobe,0,21.0,,,1.0,1,60,deficit,0,0,0
+male,53,115,1,Debulking,right,Frontal lobe,0,21.0,0.0,1.0,7.0,0,30,seizure,0,0,0
+male,60,115,1,Biopsy,right,Parietal lobe,0,39.0,0.0,1.0,21.0,1,40,deficit,0,0,0
+female,60,116,1,Debulking,left,Frontal lobe,0,49.0,1.0,1.0,7.0,1,60,headache,0,0,0
+female,37,116,0,Gross Total Resection,left,Temporal lobe,0,53.0,0.0,0.0,1.0,1,60,seizure,0,0,0
+male,69,117,1,Biopsy,right,Frontal lobe,0,,0.0,1.0,,0,0,deficit,0,0,0
+male,50,117,1,Biopsy,right,Temporal lobe,0,4.0,1.0,1.0,14.0,0,0,deficit,0,0,0
+male,64,118,1,Biopsy,right,Thalamus,0,4.4,0.0,,21.0,0,0,deficit,0,0,0
+male,66,119,0,Debulking,left,Frontal lobe,0,4.0,1.0,,56.0,1,60,deficit,0,0,0
+male,69,119,0,Gross Total Resection,right,Temporal lobe,0,3.0,0.0,1.0,14.0,1,60,deficit,0,0,0
+male,68,120,1,Debulking,left,Temporal lobe,0,56.6,1.0,2.0,10.0,0,0,headache,0,0,0
+female,75,121,1,Subtotal Resection,right,Parietal lobe,0,3.0,1.0,2.0,91.0,1,60,deficit,0,0,0
+female,65,122,1,Subtotal Resection,left,Temporal lobe,0,35.0,1.0,3.0,28.0,0,0,headache,0,0,0
+male,61,123,1,Biopsy,right,Occipital lobe,0,7.0,0.0,1.0,,0,40,deficit,0,0,0
+male,57,123,0,Debulking,left,Temporal lobe,0,3.0,0.0,1.0,5.0,1,60,deficit,0,0,0
+female,70,125,1,Biopsy,right,Frontal lobe,0,5.25,,2.0,56.0,0,30,deficit,0,0,0
+female,76,125,1,Biopsy,Both,Corpus callosum,0,55.0,0.0,0.0,56.0,0,0,headache,0,0,0
+male,77,128,1,Subtotal Resection,right,Temporal lobe,0,4.8,1.0,,56.0,0,0,deficit,0,0,0
+male,62,128,1,Gross Total Resection,right,Temporal lobe,0,48.0,1.0,1.0,28.0,1,60,deficit,0,0,0
+male,53,128,1,Biopsy,right,Occipital lobe,0,4.0,1.0,3.0,35.0,0,30,headache,0,0,0
+female,67,130,1,Biopsy,right,Temporal lobe,0,6.88,,3.0,121.0,1,60,deficit,0,0,0
+male,38,132,1,Biopsy,Both,Corpus callosum,0,3.0,1.0,1.0,7.0,0,0,deficit,0,0,0
+male,55,133,1,Biopsy,right,Parietal lobe,0,4.7,0.0,1.0,21.0,0,30,seizure,0,0,0
+male,65,133,0,Gross Total Resection,right,Temporal lobe,0,11.0,1.0,0.0,1.0,1,60,deficit,0,0,0
+female,77,135,1,Gross Total Resection,left,Parietal lobe,0,62.0,1.0,1.0,1.0,0,30,deficit,0,0,0
+male,65,135,1,Biopsy,right,Parietal lobe,0,18.5,1.0,1.0,14.0,0,30,deficit,0,0,0
+male,53,136,1,Gross Total Resection,right,Temporal lobe,0,3.6,1.0,1.0,14.0,0,30,deficit,0,0,0
+female,75,137,1,Biopsy,left,Insula,0,11.75,,,56.0,1,60,deficit,0,0,0
+male,75,137,0,Subtotal Resection,right,Frontal lobe,0,1.0,,,42.0,0,0,deficit,0,0,0
+male,56,137,0,Subtotal Resection,left,Frontal lobe,0,2.0,2.0,2.0,,0,0,seizure,0,0,0
+male,60,138,1,Biopsy,Both,Corpus callosum,0,12.0,1.0,1.0,35.0,0,30,deficit,0,0,0
+male,59,138,1,Biopsy,right,Temporal lobe,0,5.8,,,,0,0,seizure,0,0,0
+female,66,138,1,Biopsy,left,Frontal lobe,0,25.0,1.0,1.0,3.0,0,30,deficit,0,0,0
+male,62,140,1,Biopsy,left,Temporal lobe,0,,2.0,2.0,182.0,0,0,deficit,0,0,0
+female,58,141,1,Biopsy,right,Parietal lobe,0,5.0,2.0,,56.0,0,0,deficit,0,0,0
+male,67,141,1,Biopsy,left,Temporal lobe,0,3.6,0.0,0.0,3.0,1,40,deficit,0,0,0
+male,44,143,1,Debulking,right,Frontal lobe,0,7.0,4.0,3.0,91.0,0,0,headache,0,0,0
+female,61,144,1,Debulking,right,Temporal lobe,0,9.9,1.0,2.0,8.0,0,0,deficit,0,0,0
+male,77,144,1,Gross Total Resection,left,Temporal lobe,0,3.0,1.0,2.0,28.0,0,30,headache,0,0,0
+male,64,144,1,Debulking,left,Temporal lobe,0,4.0,1.0,1.0,14.0,1,60,headache,0,0,0
+female,58,144,0,Subtotal Resection,right,Parietal lobe,0,3.0,1.0,1.0,14.0,1,60,deficit,0,0,0
+male,66,145,1,Biopsy,left,Parietal lobe,0,14.0,1.0,1.0,365.0,1,60,deficit,0,0,0
+male,72,146,1,Debulking,left,Parietal lobe,0,3.5,0.0,2.0,28.0,0,0,deficit,0,0,0
+female,58,147,1,Debulking,left,Temporal lobe,0,41.0,4.0,,28.0,0,0,deficit,0,0,0
+male,64,152,1,Debulking,left,Temporal lobe,0,4.0,1.0,1.0,1.0,0,30,deficit,0,0,0
+female,78,153,1,Biopsy,left,Temporal lobe,0,3.0,1.0,1.0,7.0,0,30,deficit,0,0,0
+male,63,154,1,Subtotal Resection,left,Parietal lobe,0,32.5,1.0,1.0,49.0,1,60,deficit,0,0,0
+female,63,154,1,Debulking,right,Frontal lobe,0,6.6,1.0,0.0,,1,60,deficit,0,0,0
+male,54,154,1,Subtotal Resection,left,Parietal lobe,0,3.0,1.0,1.0,,1,60,deficit,0,0,0
+male,75,154,0,Gross Total Resection,left,Temporal lobe,0,8.0,1.0,2.0,7.0,0,30,deficit,0,0,0
+male,75,156,1,Subtotal Resection,right,Temporal lobe,0,18.0,1.0,1.0,1.0,1,60,deficit,0,0,0
+male,61,157,1,Debulking,right,Temporal lobe,0,4.0,1.0,1.0,91.0,1,60,headache,0,0,0
+male,53,160,1,Subtotal Resection,right,Thalamus,0,3.0,2.0,1.0,28.0,1,60,deficit,0,0,0
+female,63,160,1,Biopsy,right,Parietal lobe,0,5.0,2.0,1.0,14.0,0,30,deficit,0,0,0
+male,78,162,1,Gross Total Resection,right,Occipital lobe,0,28.0,1.0,1.0,21.0,0,30,deficit,0,0,0
+male,65,163,1,Biopsy,right,Frontal lobe,0,4.25,0.0,1.0,1.0,0,30,seizure,0,0,0
+female,69,164,1,Biopsy,right,Insula,0,40.5,3.0,3.0,49.0,1,60,deficit,0,0,0
+male,51,165,1,Subtotal Resection,right,Temporal lobe,0,6.4,1.0,1.0,56.0,1,60,deficit,0,0,0
+male,74,165,0,Biopsy,right,Temporal lobe,0,51.0,1.0,1.0,1.0,1,60,seizure,0,0,0
+male,62,166,1,Biopsy,left,Frontal lobe,0,5.0,1.0,1.0,2.0,0,30,deficit,0,0,0
+male,57,168,0,Subtotal Resection,right,Temporal lobe,0,3.0,2.0,2.0,42.0,1,60,deficit,0,0,0
+male,57,170,1,Biopsy,right,Temporal lobe,0,,2.0,3.0,211.0,0,0,deficit,0,0,0
+male,53,171,0,Gross Total Resection,right,Frontal lobe,0,4.0,0.0,2.0,1.0,0,40,deficit,0,0,0
+female,65,172,1,Gross Total Resection,left,Parietal lobe,0,26.0,,3.0,7.0,0,0,deficit,0,0,0
+male,78,174,1,Debulking,left,Temporal lobe,0,2.5,0.0,1.0,4.0,0,30,deficit,0,0,0
+male,71,175,1,Gross Total Resection,right,Temporal lobe,0,58.5,,,35.0,0,30,deficit,0,0,0
+female,60,175,1,Gross Total Resection,right,Occipital lobe,0,5.0,0.0,0.0,,1,60,deficit,0,0,0
+male,72,175,1,Gross Total Resection,left,Parietal lobe,0,5.0,,2.0,,0,30,deficit,0,0,0
+male,62,175,0,Gross Total Resection,right,Temporal lobe,0,36.0,1.0,2.0,21.0,1,60,deficit,0,0,0
+female,74,176,1,Gross Total Resection,left,Frontal lobe,0,41.0,0.0,1.0,1.0,0,30,deficit,0,0,0
+female,69,176,1,Subtotal Resection,right,Parietal lobe,0,13.0,1.0,1.0,14.0,0,0,deficit,0,0,0
+male,72,177,1,Biopsy,right,Parietal lobe,0,5.0,0.0,1.0,7.0,1,60,deficit,0,0,0
+female,70,178,1,Gross Total Resection,left,Frontal lobe,0,5.0,0.0,,56.0,0,0,deficit,0,0,0
+female,75,178,1,Debulking,left,Cerebellum,0,17.0,0.0,2.0,14.0,0,30,deficit,0,0,0
+female,52,180,1,Biopsy,Both,External capsule,0,7.5,2.0,2.0,14.0,0,30,deficit,1,0,0
+male,74,180,1,Subtotal Resection,left,Temporal lobe,0,3.0,1.0,1.0,1.0,1,60,seizure,1,0,0
+female,63,183,1,Gross Total Resection,right,Occipital lobe,0,21.0,1.0,1.0,28.0,0,30,headache,1,0,0
+female,62,184,1,Subtotal Resection,left,Temporal lobe,0,47.0,,2.0,2.0,0,0,headache,1,0,0
+male,68,184,1,Debulking,left,Temporal lobe,0,4.5,1.0,2.0,,0,0,deficit,1,0,0
+male,65,184,1,Biopsy,left,Temporal lobe,0,18.0,1.0,1.0,,0,0,,1,0,0
+male,57,187,1,Subtotal Resection,left,Temporal lobe,0,,,1.0,4.0,1,60,deficit,1,0,0
+male,42,189,1,Debulking,left,Temporal lobe,0,6.5,3.0,2.0,21.0,0,30,deficit,1,0,0
+male,60,190,1,Debulking,right,Frontal lobe,0,80.0,,3.0,42.0,0,0,deficit,1,0,0
+male,66,191,1,Subtotal Resection,left,Temporal lobe,0,7.0,0.0,0.0,7.0,1,60,deficit,1,0,0
+male,69,194,1,Subtotal Resection,right,Temporal lobe,0,45.0,1.0,1.0,14.0,0,30,deficit,1,0,0
+male,49,194,1,Debulking,right,Frontal lobe,0,2.5,0.0,,150.0,1,60,deficit,1,0,0
+male,65,196,0,Biopsy,right,Insula,0,51.0,1.0,2.0,1.0,1,60,seizure,1,0,0
+male,75,200,0,Debulking,right,Frontal lobe,0,67.0,,2.0,1.0,0,0,deficit,1,0,0
+male,63,201,1,Gross Total Resection,left,Temporal lobe,0,56.7,0.0,1.0,7.0,1,60,headache,1,0,0
+male,72,201,1,Biopsy,right,Frontal lobe,0,2.5,1.0,1.0,42.0,0,30,deficit,1,0,0
+male,58,202,1,Biopsy,right,Frontal lobe,0,7.3,2.0,,,0,30,deficit,1,0,0
+male,71,202,1,Gross Total Resection,left,Parietal lobe,0,5.4,1.0,1.0,42.0,0,30,deficit,1,0,0
+female,72,202,1,Gross Total Resection,right,Parietal lobe,0,46.0,0.0,0.0,28.0,1,60,deficit,1,0,0
+female,66,204,1,Biopsy,left,Parietal lobe,0,3.4,3.0,1.0,,1,60,deficit,1,0,0
+female,79,205,1,Debulking,left,Parietal lobe,0,15.0,0.0,,14.0,0,30,deficit,1,0,0
+female,62,205,1,Biopsy,right,Parietal lobe,0,37.1,1.0,1.0,28.0,0,30,seizure,1,0,0
+male,48,206,1,Biopsy,right,Frontal lobe,0,5.1,0.0,3.0,56.0,0,30,deficit,1,0,0
+male,60,207,1,Biopsy,left,Thalamus,0,6.1,1.0,2.0,28.0,1,60,deficit,1,0,0
+male,68,207,1,Biopsy,left,Temporal lobe,0,5.6,1.0,1.0,14.0,1,60,seizure,1,0,0
+male,76,208,1,Biopsy,right,Temporal lobe,0,4.0,1.0,1.0,63.0,0,0,deficit,1,0,0
+male,65,209,1,Gross Total Resection,left,Occipital lobe,0,44.0,0.0,0.0,7.0,1,40,deficit,1,0,0
+female,75,210,0,Subtotal Resection,left,Frontal lobe,0,45.0,,,2.0,1,60,deficit,1,0,0
+male,69,210,0,Gross Total Resection,right,Parietal lobe,0,3.0,0.0,0.0,,1,60,deficit,1,0,0
+female,59,210,0,Biopsy,right,Occipital lobe,0,9.0,0.0,,1.0,1,60,deficit,1,0,0
+male,67,211,1,Debulking,right,Parietal lobe,0,17.5,1.0,2.0,14.0,0,30,deficit,1,0,0
+male,51,213,1,Gross Total Resection,right,Temporal lobe,0,14.0,1.0,1.0,,0,0,seizure,1,0,0
+male,54,215,1,Biopsy,right,Parietal lobe,0,3.1,1.0,0.0,14.0,0,0,headache,1,0,0
+male,54,217,1,Debulking,left,Temporal lobe,0,2.6,0.0,2.0,3.0,1,60,deficit,1,0,0
+male,66,217,1,Biopsy,right,Occipital lobe,0,37.5,2.0,1.0,0.0,1,60,seizure,1,0,0
+female,54,217,0,Biopsy,left,Temporal lobe,0,6.0,0.0,3.0,56.0,0,0,deficit,1,0,0
+male,69,219,1,Debulking,right,Frontal lobe,0,7.75,2.0,2.0,14.0,0,0,deficit,1,0,0
+female,64,219,1,Biopsy,right,Frontal lobe,0,93.0,2.0,2.0,1.0,1,60,seizure,1,0,0
+female,69,220,1,Biopsy,right,Thalamus,0,3.0,1.0,1.0,14.0,0,30,deficit,1,0,0
+male,68,220,0,Gross Total Resection,right,Parietal lobe,0,3.0,1.0,3.0,,1,60,seizure,1,0,0
+male,73,221,1,Subtotal Resection,left,Temporal lobe,0,21.75,2.0,,91.0,0,0,deficit,1,0,0
+male,50,222,1,Subtotal Resection,right,Frontal lobe,0,34.5,0.0,0.0,14.0,0,0,headache,1,0,0
+female,64,224,1,Gross Total Resection,right,Parietal lobe,0,46.0,0.0,1.0,7.0,1,60,deficit,1,0,0
+female,69,224,1,Gross Total Resection,right,Occipital lobe,0,4.0,,,91.0,0,30,headache,1,0,0
+male,59,224,0,Gross Total Resection,right,Temporal lobe,0,8.0,1.0,1.0,,1,60,deficit,1,0,0
+female,77,227,1,Gross Total Resection,right,Frontal lobe,0,6.0,0.0,0.0,91.0,1,60,seizure,1,0,0
+male,46,228,1,Debulking,left,External capsule,0,4.0,0.0,1.0,14.0,1,60,headache,1,0,0
+male,66,228,1,Gross Total Resection,left,Parietal lobe,0,4.0,,1.0,7.0,0,30,deficit,1,0,0
+male,73,228,1,Debulking,right,Parietal lobe,0,2.0,1.0,,243.0,1,60,deficit,1,0,0
+male,53,228,0,Subtotal Resection,right,Parietal lobe,0,6.0,1.0,,14.0,1,60,seizure,1,0,0
+male,62,229,1,Biopsy,left,Temporal lobe,0,6.1,1.0,0.0,42.0,0,30,deficit,1,0,0
+male,58,231,0,Gross Total Resection,left,Frontal lobe,0,35.0,,1.0,14.0,1,60,seizure,1,0,0
+male,59,233,1,Subtotal Resection,left,Temporal lobe,0,2.0,1.0,1.0,56.0,1,60,deficit,1,0,0
+female,76,234,1,Gross Total Resection,right,Temporal lobe,0,53.0,1.0,1.0,3.0,0,30,seizure,1,0,0
+female,65,236,1,Gross Total Resection,right,Frontal lobe,0,2.0,1.0,,28.0,0,0,deficit,1,0,0
+male,47,238,0,Debulking,left,Parietal lobe,0,71.0,,2.0,21.0,0,0,,1,0,0
+male,64,239,1,Biopsy,right,Parietal lobe,0,,1.0,2.0,35.0,1,60,deficit,1,0,0
+female,63,239,1,Subtotal Resection,left,Parietal lobe,0,3.0,1.0,2.0,,0,0,,1,0,0
+male,47,241,1,Biopsy,left,Parietal lobe,0,5.0,0.0,0.0,35.0,0,30,deficit,1,0,0
+male,57,242,0,Gross Total Resection,left,Temporal lobe,0,6.0,0.0,0.0,91.0,1,60,headache,1,0,0
+male,66,245,1,Debulking,right,Temporal lobe,0,3.0,2.0,2.0,21.0,1,60,headache,1,0,0
+female,73,245,1,Gross Total Resection,left,Occipital lobe,0,9.0,0.0,0.0,21.0,0,40,deficit,1,0,0
+male,48,245,1,Gross Total Resection,left,Temporal lobe,0,3.0,,,14.0,1,60,seizure,1,0,0
+male,71,245,0,Gross Total Resection,right,Temporal lobe,0,38.0,1.0,1.0,2.0,1,60,deficit,1,0,0
+female,72,245,0,Biopsy,left,Temporal lobe,0,39.0,1.0,,,0,30,deficit,1,0,0
+male,65,246,1,Debulking,left,Parietal lobe,0,6.8,,2.0,,0,30,,1,0,0
+female,61,246,1,Gross Total Resection,left,Temporal lobe,0,35.0,2.0,,14.0,0,30,deficit,1,0,0
+male,74,248,1,Biopsy,right,Frontal lobe,0,,1.0,1.0,,0,30,deficit,1,0,0
+male,72,248,1,Subtotal Resection,right,Occipital lobe,0,41.0,1.0,1.0,28.0,1,40,headache,1,0,0
+female,63,250,1,Biopsy,left,Frontal lobe,0,41.6,0.0,0.0,7.0,1,60,deficit,1,0,0
+male,73,252,1,Gross Total Resection,left,Parietal lobe,0,19.0,,3.0,,0,0,deficit,1,0,0
+male,60,252,0,Subtotal Resection,right,Temporal lobe,0,64.0,,,,1,60,deficit,1,0,0
+male,59,255,1,Biopsy,Both,Corpus callosum,0,5.0,0.0,,14.0,0,0,deficit,1,0,0
+male,45,256,1,Subtotal Resection,left,Temporal lobe,0,34.0,,,1.0,0,30,seizure,1,0,0
+female,64,256,0,Debulking,left,Temporal lobe,0,65.0,2.0,3.0,14.0,1,60,deficit,1,0,0
+female,69,257,1,Gross Total Resection,right,Temporal lobe,0,42.0,1.0,2.0,14.0,0,0,deficit,1,0,0
+male,69,258,1,Biopsy,right,Temporal lobe,0,3.6,0.0,0.0,91.0,1,60,deficit,1,0,0
+male,49,259,1,Biopsy,left,Parietal lobe,0,7.5,1.0,,14.0,0,30,deficit,1,0,0
+female,46,262,1,Biopsy,Both,Corpus callosum,0,14.4,0.0,1.0,28.0,0,30,headache,1,0,0
+female,55,263,0,Gross Total Resection,right,Frontal lobe,0,4.0,2.0,1.0,,1,60,deficit,1,0,0
+male,67,266,1,Biopsy,right,Temporal lobe,0,5.0,1.0,1.0,,0,0,deficit,1,0,0
+male,62,266,1,Gross Total Resection,left,Parietal lobe,0,3.0,0.0,1.0,28.0,1,60,deficit,1,0,0
+female,63,266,0,Subtotal Resection,left,Temporal lobe,0,2.0,1.0,1.0,28.0,1,60,headache,1,0,0
+female,77,266,0,Gross Total Resection,right,Temporal lobe,0,3.0,2.0,2.0,14.0,1,40,headache,1,0,0
+male,74,267,1,Gross Total Resection,left,Frontal lobe,0,3.4,1.0,1.0,14.0,0,40,deficit,1,0,0
+male,71,269,1,Debulking,right,Temporal lobe,0,35.0,1.0,1.0,2.0,1,60,deficit,1,0,0
+female,54,269,1,Subtotal Resection,left,Occipital lobe,0,4.0,,,28.0,1,60,headache,1,0,0
+male,53,270,1,Biopsy,left,Frontal lobe,0,2.5,3.0,,1.0,0,0,deficit,1,0,0
+male,45,270,0,Biopsy,right,Frontal lobe,0,2.0,1.0,1.0,,1,60,,1,0,0
+male,52,275,1,Gross Total Resection,left,Frontal lobe,0,5.0,1.0,1.0,42.0,0,30,deficit,1,0,0
+male,70,276,1,Debulking,left,Parietal lobe,0,9.0,0.0,0.0,28.0,0,30,headache,1,0,0
+male,60,276,1,Gross Total Resection,right,Parietal lobe,0,5.3,0.0,0.0,14.0,1,60,deficit,1,0,0
+female,68,278,1,Debulking,right,Parietal lobe,0,41.9,0.0,2.0,14.0,1,60,deficit,1,0,0
+female,58,279,1,Debulking,right,Parietal lobe,0,6.5,1.0,,5.0,0,30,deficit,1,0,0
+male,65,279,1,Biopsy,left,Frontal lobe,0,31.0,0.0,0.0,1.0,1,60,deficit,1,0,0
+male,45,280,1,Gross Total Resection,right,Frontal lobe,0,2.0,1.0,0.0,730.0,1,60,headache,1,0,0
+female,62,288,1,Gross Total Resection,left,Temporal lobe,0,,1.0,4.0,121.0,0,0,deficit,1,0,0
+male,60,290,0,Gross Total Resection,right,Frontal lobe,0,10.0,0.0,0.0,1.0,1,60,seizure,1,0,0
+male,51,291,1,Biopsy,right,Parietal lobe,0,4.0,0.0,1.0,121.0,1,60,deficit,1,0,0
+female,60,291,1,Debulking,right,Frontal lobe,0,28.6,1.0,1.0,21.0,0,30,headache,1,0,0
+female,39,292,1,Debulking,left,Frontal lobe,0,6.0,1.0,1.0,42.0,0,30,headache,1,0,0
+female,67,292,1,Gross Total Resection,right,Temporal lobe,0,2.9,1.0,3.0,28.0,0,0,deficit,1,0,0
+male,76,297,1,Debulking,left,Temporal lobe,0,26.5,2.0,1.0,14.0,0,30,deficit,1,0,0
+female,82,297,1,Gross Total Resection,left,Frontal lobe,0,4.0,1.0,,14.0,0,0,deficit,1,0,0
+male,76,298,1,Gross Total Resection,right,Occipital lobe,0,4.8,1.0,3.0,1.0,1,60,deficit,1,0,0
+male,53,298,0,Biopsy,left,Frontal lobe,0,3.0,1.0,2.0,1.0,0,30,deficit,1,0,0
+male,73,301,1,Debulking,left,Temporal lobe,0,41.0,0.0,0.0,91.0,0,40,deficit,1,0,0
+male,58,301,0,Gross Total Resection,left,Parietal lobe,0,10.0,3.0,2.0,7.0,0,0,seizure,1,0,0
+male,72,302,1,Gross Total Resection,right,Temporal lobe,0,4.5,1.0,1.0,,0,30,headache,1,0,0
+female,64,303,1,Debulking,right,Frontal lobe,0,58.8,2.0,1.0,,1,60,deficit,1,0,0
+female,69,304,1,Debulking,left,Temporal lobe,0,5.0,0.0,1.0,1.0,0,0,seizure,1,0,0
+female,42,305,0,Debulking,left,Frontal lobe,0,4.0,1.0,1.0,28.0,0,30,deficit,1,0,0
+male,64,308,1,Gross Total Resection,left,Temporal lobe,0,4.5,0.0,0.0,21.0,0,30,seizure,1,0,0
+male,54,308,0,Gross Total Resection,left,Temporal lobe,0,4.0,1.0,2.0,182.0,1,60,deficit,1,0,0
+male,60,311,1,Debulking,left,Parietal lobe,0,5.0,0.0,0.0,,1,60,headache,1,0,0
+female,71,311,1,Gross Total Resection,right,Frontal lobe,0,31.0,1.0,1.0,56.0,0,30,deficit,1,0,0
+female,67,311,1,Gross Total Resection,right,Temporal lobe,0,42.0,1.0,,7.0,0,0,deficit,1,0,0
+female,71,313,1,Biopsy,left,Frontal lobe,0,,0.0,2.0,7.0,0,30,deficit,1,0,0
+male,51,315,0,Gross Total Resection,right,Temporal lobe,0,3.0,0.0,0.0,21.0,1,60,headache,1,0,0
+male,67,317,1,Debulking,left,Frontal lobe,0,4.0,1.0,1.0,14.0,1,60,deficit,1,0,0
+male,47,319,1,Debulking,left,Frontal lobe,0,2.5,0.0,0.0,1.0,0,0,seizure,1,0,0
+female,58,319,0,Gross Total Resection,right,Temporal lobe,0,3.0,0.0,1.0,4.0,1,60,deficit,1,0,0
+female,65,319,0,Debulking,right,Frontal lobe,0,3.0,3.0,2.0,14.0,0,40,deficit,1,0,0
+male,38,322,0,Gross Total Resection,right,Temporal lobe,1,23.0,1.0,2.0,21.0,1,60,deficit,1,0,0
+male,67,324,1,Gross Total Resection,right,Frontal lobe,0,46.0,0.0,3.0,7.0,0,0,deficit,1,0,0
+female,57,325,1,Debulking,right,Temporal lobe,0,4.0,0.0,1.0,,1,60,deficit,1,0,0
+male,61,329,1,Gross Total Resection,left,Cerebellum,0,3.0,1.0,1.0,2.0,1,60,deficit,1,0,0
+male,77,329,0,Biopsy,left,Parietal lobe,0,3.0,1.0,1.0,,0,30,,1,0,0
+male,77,332,1,Gross Total Resection,right,Temporal lobe,0,3.5,0.0,1.0,21.0,0,30,deficit,1,0,0
+male,58,337,1,Subtotal Resection,right,Parietal lobe,0,3.0,1.0,1.0,18.0,1,60,deficit,1,0,0
+male,67,337,1,Subtotal Resection,Both,External capsule,0,5.0,,2.0,28.0,0,0,deficit,1,0,0
+male,41,337,0,Biopsy,right,Frontal lobe,1,72.0,1.0,1.0,91.0,0,30,seizure,1,0,0
+male,67,339,1,Debulking,left,Parietal lobe,0,45.9,1.0,1.0,56.0,1,60,deficit,1,0,0
+male,65,339,1,Debulking,left,Temporal lobe,0,19.88,0.0,0.0,1.0,1,60,deficit,1,0,0
+male,18,339,0,Biopsy,right,Frontal lobe,0,,,2.0,28.0,1,60,deficit,1,0,0
+male,58,341,1,Debulking,left,Occipital lobe,0,2.5,1.0,1.0,35.0,1,60,deficit,1,0,0
+male,65,341,1,Gross Total Resection,right,Temporal lobe,0,5.1,1.0,2.0,7.0,0,30,deficit,1,0,0
+male,66,344,1,Subtotal Resection,left,Parietal lobe,0,62.3,0.0,0.0,7.0,1,60,deficit,1,0,0
+male,67,346,1,Debulking,right,External capsule,0,3.0,1.0,2.0,182.0,0,30,deficit,1,0,0
+male,50,347,1,Biopsy,left,Frontal lobe,0,3.0,0.0,1.0,28.0,0,0,seizure,1,0,0
+female,69,352,1,Gross Total Resection,left,Temporal lobe,0,3.0,1.0,1.0,2.0,1,60,seizure,1,0,0
+female,63,354,0,Gross Total Resection,left,Temporal lobe,1,36.0,1.0,1.0,,1,60,seizure,1,0,0
+female,55,357,1,Subtotal Resection,left,Frontal lobe,0,4.0,0.0,2.0,10.0,1,60,deficit,1,0,0
+male,71,357,0,Biopsy,left,Parietal lobe,0,42.0,0.0,1.0,,1,60,deficit,1,0,0
+male,53,357,0,Biopsy,left,Thalamus,0,4.8,1.0,1.0,7.0,1,60,deficit,1,0,0
+female,47,359,1,Debulking,left,Parietal lobe,0,30.75,2.0,,2.0,0,40,deficit,1,0,0
+female,65,360,1,Gross Total Resection,left,Temporal lobe,0,4.5,1.0,1.0,4.0,1,60,deficit,1,1,0
+female,69,361,1,Biopsy,left,Frontal lobe,0,3.5,0.0,0.0,14.0,1,60,deficit,1,1,0
+female,73,362,1,Subtotal Resection,right,Parietal lobe,0,6.8,1.0,2.0,28.0,1,60,headache,1,1,0
+male,62,363,1,Subtotal Resection,left,Parietal lobe,0,5.0,2.0,1.0,7.0,1,60,headache,1,1,0
+male,73,363,1,Subtotal Resection,left,Parietal lobe,0,41.0,0.0,,28.0,1,60,headache,1,1,0
+female,46,364,1,Debulking,left,Parietal lobe,1,36.0,0.0,1.0,1.0,1,60,seizure,1,1,0
+male,28,364,0,Gross Total Resection,right,Frontal lobe,1,27.5,1.0,2.0,56.0,1,60,headache,1,1,0
+male,55,365,1,Gross Total Resection,right,Temporal lobe,0,5.8,,,,1,60,deficit,1,1,0
+male,64,367,0,Gross Total Resection,left,Temporal lobe,0,48.88,,,1.0,1,60,seizure,1,1,0
+male,60,370,1,Subtotal Resection,right,Parietal lobe,0,5.0,0.0,0.0,1.0,1,60,seizure,1,1,0
+male,68,371,1,Gross Total Resection,right,Frontal lobe,0,58.0,0.0,1.0,3.0,1,60,seizure,1,1,0
+female,49,375,0,Subtotal Resection,right,Frontal lobe,0,54.0,1.0,,42.0,1,60,headache,1,1,0
+male,49,378,0,Subtotal Resection,left,Frontal lobe,0,39.0,0.0,1.0,91.0,0,40,deficit,1,1,0
+male,58,380,1,Biopsy,right,Frontal lobe,0,2.5,2.0,,21.0,0,0,headache,1,1,0
+male,75,381,1,Gross Total Resection,right,Temporal lobe,0,35.0,0.0,3.0,,0,0,deficit,1,1,0
+male,45,381,1,Gross Total Resection,left,Occipital lobe,0,4.5,0.0,1.0,,1,60,deficit,1,1,0
+female,75,381,1,Gross Total Resection,right,Temporal lobe,0,2.0,1.0,1.0,1.0,0,0,deficit,1,1,0
+female,69,383,1,Gross Total Resection,right,Parietal lobe,0,,1.0,4.0,1.0,1,60,seizure,1,1,0
+male,58,384,1,Gross Total Resection,right,Temporal lobe,0,68.0,1.0,1.0,91.0,0,0,deficit,1,1,0
+male,50,384,1,Gross Total Resection,right,Frontal lobe,0,47.0,0.0,1.0,56.0,1,60,seizure,1,1,0
+male,54,389,1,Subtotal Resection,left,Parietal lobe,0,4.5,0.0,0.0,,0,30,deficit,1,1,0
+male,68,392,0,Gross Total Resection,right,Temporal lobe,0,3.75,0.0,0.0,14.0,1,60,deficit,1,1,0
+male,59,393,1,Debulking,left,Occipital lobe,0,3.4,0.0,0.0,,1,60,deficit,1,1,0
+male,50,396,0,Subtotal Resection,right,Temporal lobe,0,3.75,1.0,0.0,14.0,1,60,seizure,1,1,0
+male,79,397,1,Gross Total Resection,right,Parietal lobe,0,5.0,0.0,0.0,1.0,1,60,deficit,1,1,0
+female,77,403,1,Gross Total Resection,right,Parietal lobe,0,5.7,1.0,1.0,,0,40,deficit,1,1,0
+female,52,406,1,Gross Total Resection,left,Occipital lobe,0,4.9,1.0,1.0,56.0,1,60,headache,1,1,0
+male,58,416,1,Subtotal Resection,right,Temporal lobe,0,,1.0,0.0,14.0,1,60,deficit,1,1,0
+male,56,416,0,Debulking,left,Temporal lobe,0,13.0,0.0,0.0,56.0,1,60,headache,1,1,0
+male,48,418,1,Biopsy,right,Occipital lobe,0,4.0,1.0,0.0,1.0,0,30,deficit,1,1,0
+female,60,418,1,Debulking,right,Parietal lobe,0,65.0,1.0,1.0,3.0,0,40,deficit,1,1,0
+male,68,418,1,Subtotal Resection,left,Frontal lobe,0,7.4,0.0,1.0,21.0,1,60,deficit,1,1,0
+male,80,419,1,Gross Total Resection,right,Frontal lobe,0,37.5,0.0,1.0,21.0,1,60,deficit,1,1,0
+male,58,422,1,Gross Total Resection,right,Parietal lobe,0,2.8,,,1.0,1,60,seizure,1,1,0
+female,71,422,1,Biopsy,right,Parietal lobe,0,4.0,1.0,1.0,56.0,1,60,deficit,1,1,0
+male,52,430,1,Debulking,right,Frontal lobe,0,45.0,3.0,3.0,,0,0,deficit,1,1,0
+male,44,430,0,Subtotal Resection,left,Temporal lobe,0,4.0,0.0,0.0,,1,60,deficit,1,1,0
+male,73,432,1,Subtotal Resection,right,Frontal lobe,0,63.0,0.0,0.0,7.0,0,30,deficit,1,1,0
+male,57,432,1,Gross Total Resection,right,Temporal lobe,0,3.0,,2.0,56.0,1,60,,1,1,0
+male,59,434,1,Biopsy,right,Parietal lobe,0,24.0,3.0,3.0,21.0,1,60,deficit,1,1,0
+male,30,438,0,Subtotal Resection,right,Temporal lobe,0,4.0,2.0,1.0,1.0,1,60,headache,1,1,0
+male,74,439,1,Gross Total Resection,left,Frontal lobe,0,6.0,0.0,1.0,7.0,1,60,deficit,1,1,0
+male,55,443,1,Gross Total Resection,right,Temporal lobe,0,3.3,0.0,0.0,,1,60,seizure,1,1,0
+male,78,444,1,Biopsy,right,Temporal lobe,0,12.0,1.0,,730.0,1,60,seizure,1,1,0
+female,50,452,1,Debulking,right,Temporal lobe,0,4.0,0.0,1.0,10.0,1,60,headache,1,1,0
+male,62,452,0,Gross Total Resection,left,Temporal lobe,0,40.0,1.0,,91.0,1,60,deficit,1,1,0
+female,47,453,1,Biopsy,right,Cerebellum,0,23.0,0.0,0.0,56.0,0,30,deficit,1,1,0
+female,60,455,1,Subtotal Resection,right,Parietal lobe,0,4.5,2.0,2.0,28.0,1,60,deficit,1,1,0
+female,69,455,0,Gross Total Resection,right,Parietal lobe,0,29.0,1.0,,7.0,1,60,deficit,1,1,0
+male,76,456,1,Debulking,right,Parietal lobe,0,17.0,2.0,3.0,28.0,1,60,seizure,1,1,0
+male,56,458,1,Gross Total Resection,right,Parietal lobe,0,5.9,0.0,0.0,1.0,1,60,deficit,1,1,0
+male,50,460,1,Subtotal Resection,right,Frontal lobe,0,39.8,1.0,1.0,28.0,1,60,deficit,1,1,0
+female,57,464,1,Gross Total Resection,right,Temporal lobe,0,6.5,0.0,0.0,182.0,1,60,seizure,1,1,0
+male,52,465,1,Gross Total Resection,left,Frontal lobe,0,5.0,,1.0,14.0,1,60,headache,1,1,0
+female,47,466,1,Biopsy,left,Frontal lobe,0,4.0,0.0,0.0,,1,60,deficit,1,1,0
+male,64,466,0,Gross Total Resection,left,Temporal lobe,0,14.0,1.0,1.0,56.0,1,60,headache,1,1,0
+male,67,468,1,Gross Total Resection,right,Frontal lobe,0,4.3,1.0,2.0,2.0,0,40,deficit,1,1,0
+female,29,469,0,Subtotal Resection,left,Temporal lobe,0,3.0,0.0,2.0,,1,60,headache,1,1,0
+female,68,470,1,Gross Total Resection,left,Parietal lobe,0,8.0,0.0,0.0,7.0,1,60,headache,1,1,0
+male,72,473,1,Gross Total Resection,right,Parietal lobe,0,3.5,1.0,1.0,91.0,0,40,deficit,1,1,0
+male,52,473,0,Biopsy,left,Frontal lobe,0,9.6,0.0,0.0,7.0,1,60,seizure,1,1,0
+male,74,476,1,Debulking,right,Frontal lobe,0,4.0,2.0,2.0,28.0,1,60,deficit,1,1,0
+male,58,478,1,Gross Total Resection,right,Parietal lobe,0,6.0,0.0,0.0,28.0,1,60,deficit,1,1,0
+male,25,480,0,Gross Total Resection,right,Frontal lobe,1,35.0,0.0,1.0,3.0,1,60,seizure,1,1,0
+female,66,495,1,Gross Total Resection,right,Frontal lobe,0,3.0,1.0,1.0,10.0,1,60,deficit,1,1,0
+female,64,497,1,Gross Total Resection,left,Temporal lobe,0,64.0,1.0,2.0,91.0,1,60,deficit,1,1,0
+male,67,499,1,Gross Total Resection,left,Temporal lobe,0,3.8,1.0,1.0,91.0,1,60,deficit,1,1,0
+male,66,499,1,Subtotal Resection,right,Temporal lobe,0,40.0,1.0,1.0,14.0,1,60,deficit,1,1,0
+female,74,500,1,Gross Total Resection,right,Frontal lobe,0,4.8,2.0,,28.0,1,60,deficit,1,1,0
+female,56,501,0,Gross Total Resection,left,Frontal lobe,0,3.5,1.0,1.0,56.0,1,60,headache,1,1,0
+female,52,522,1,Gross Total Resection,right,Occipital lobe,0,3.4,0.0,0.0,14.0,1,60,headache,1,1,0
+male,74,525,1,Biopsy,left,Temporal lobe,0,1.88,0.0,1.0,1.0,0,40,headache,1,1,0
+male,60,535,1,Biopsy,left,Frontal lobe,0,34.0,,1.0,8.0,1,60,seizure,1,1,0
+female,53,543,0,Gross Total Resection,right,Frontal lobe,0,53.5,1.0,1.0,4.0,1,60,deficit,1,1,1
+male,52,563,1,Gross Total Resection,Both,External capsule,0,21.4,0.0,0.0,49.0,0,30,headache,1,1,1
+male,67,573,1,Subtotal Resection,left,Temporal lobe,0,26.0,0.0,0.0,56.0,1,60,headache,1,1,1
+male,58,578,1,Gross Total Resection,left,Temporal lobe,0,5.4,1.0,1.0,21.0,1,60,headache,1,1,1
+female,60,585,1,Gross Total Resection,left,Frontal lobe,0,23.9,0.0,0.0,1.0,1,60,seizure,1,1,1
+female,51,587,1,Gross Total Resection,right,Frontal lobe,0,34.0,0.0,0.0,14.0,1,60,deficit,1,1,1
+female,62,591,0,Gross Total Resection,left,Temporal lobe,0,2.0,0.0,0.0,28.0,1,60,headache,1,1,1
+female,52,594,1,Subtotal Resection,left,Temporal lobe,0,7.4,1.0,1.0,365.0,1,60,seizure,1,1,1
+male,61,596,1,Debulking,left,Occipital lobe,0,4.5,0.0,1.0,3.0,1,60,deficit,1,1,1
+male,72,597,1,Gross Total Resection,right,Temporal lobe,0,30.0,1.0,1.0,14.0,1,60,deficit,1,1,1
+male,51,598,1,Subtotal Resection,right,Temporal lobe,0,6.5,0.0,0.0,121.0,1,60,seizure,1,1,1
+female,51,599,0,Gross Total Resection,left,Temporal lobe,1,7.0,0.0,0.0,,1,60,deficit,1,1,1
+male,36,601,1,Gross Total Resection,left,Occipital lobe,0,4.9,0.0,0.0,14.0,1,60,deficit,1,1,1
+male,57,607,1,Gross Total Resection,left,Frontal lobe,0,4.0,0.0,0.0,1.0,1,60,seizure,1,1,1
+male,68,609,1,Debulking,left,Frontal lobe,0,25.3,1.0,0.0,4.0,1,60,deficit,1,1,1
+male,57,612,1,Subtotal Resection,left,Temporal lobe,0,31.0,,1.0,14.0,1,60,deficit,1,1,1
+female,35,615,1,Biopsy,right,Parietal lobe,0,41.0,1.0,1.0,91.0,1,60,deficit,1,1,1
+female,57,616,0,Gross Total Resection,left,Frontal lobe,0,32.0,1.0,0.0,7.0,1,60,headache,1,1,1
+female,52,617,1,Gross Total Resection,right,Temporal lobe,0,4.25,1.0,1.0,1.0,1,60,seizure,1,1,1
+male,44,620,0,Subtotal Resection,left,Parietal lobe,0,30.0,0.0,0.0,,1,60,deficit,1,1,1
+male,63,629,1,Gross Total Resection,right,Temporal lobe,0,16.5,1.0,0.0,121.0,1,60,deficit,1,1,1
+female,77,634,0,Gross Total Resection,left,Parietal lobe,0,55.0,1.0,1.0,,1,40,deficit,1,1,1
+male,69,635,1,Gross Total Resection,right,Frontal lobe,0,54.0,0.0,1.0,7.0,1,60,deficit,1,1,1
+male,50,640,0,Gross Total Resection,left,Temporal lobe,0,48.0,0.0,0.0,14.0,1,60,seizure,1,1,1
+female,31,648,0,Subtotal Resection,left,Frontal lobe,1,12.0,1.0,0.0,243.0,1,60,headache,1,1,1
+female,55,655,0,Biopsy,right,Temporal lobe,0,11.0,0.0,2.0,28.0,0,0,seizure,1,1,1
+male,62,663,1,Gross Total Resection,left,Occipital lobe,0,6.3,1.0,1.0,56.0,1,60,deficit,1,1,1
+female,59,667,1,Gross Total Resection,right,Temporal lobe,0,50.0,1.0,1.0,56.0,1,60,seizure,1,1,1
+male,63,672,0,Gross Total Resection,left,Temporal lobe,0,44.0,0.0,0.0,1.0,1,60,seizure,1,1,1
+male,78,674,1,Biopsy,right,Parietal lobe,0,48.0,,,28.0,0,30,deficit,1,1,1
+male,56,679,1,Gross Total Resection,left,Temporal lobe,0,5.0,0.0,0.0,28.0,1,60,headache,1,1,1
+male,26,688,0,Subtotal Resection,right,Temporal lobe,1,5.6,0.0,0.0,14.0,1,60,seizure,1,1,1
+male,46,714,0,Gross Total Resection,right,Temporal lobe,0,25.0,1.0,,28.0,1,60,headache,1,1,1
+male,74,725,0,Gross Total Resection,left,Parietal lobe,0,21.0,0.0,0.0,10.0,1,60,deficit,1,1,1
+male,35,733,1,Gross Total Resection,right,Parietal lobe,0,5.6,0.0,1.0,28.0,1,60,deficit,1,1,1
+male,57,737,1,Gross Total Resection,left,Temporal lobe,0,3.5,1.0,1.0,10.0,1,60,headache,1,1,1
+male,71,741,1,Biopsy,right,Frontal lobe,0,38.0,1.0,3.0,56.0,0,0,seizure,1,1,1
+male,22,742,0,Gross Total Resection,left,Frontal lobe,0,7.0,0.0,0.0,56.0,1,60,seizure,1,1,1
+male,63,748,1,Gross Total Resection,right,Temporal lobe,0,18.0,0.0,1.0,42.0,1,60,deficit,1,1,1
+male,44,749,0,Gross Total Resection,left,Temporal lobe,0,38.0,0.0,0.0,14.0,1,60,deficit,1,1,1
+female,67,752,0,Gross Total Resection,left,Temporal lobe,0,3.0,0.0,0.0,14.0,1,60,deficit,1,1,1
+male,25,780,0,Biopsy,left,Frontal lobe,0,4.0,0.0,0.0,121.0,1,60,headache,1,1,1
+male,45,780,0,Debulking,right,Insula,1,27.0,,,,1,60,deficit,1,1,1
+female,68,783,1,Gross Total Resection,right,Temporal lobe,0,5.0,1.0,0.0,,1,60,deficit,1,1,1
+male,51,791,1,Gross Total Resection,right,Parietal lobe,0,4.13,1.0,0.0,1.0,1,60,seizure,1,1,1
+male,57,791,0,Gross Total Resection,right,Temporal lobe,0,36.0,1.0,2.0,28.0,1,60,seizure,1,1,1
+female,50,861,0,Debulking,right,Frontal lobe,1,58.0,1.0,1.0,10.0,1,60,headache,1,1,1
+female,51,886,1,Gross Total Resection,left,Frontal lobe,0,3.8,0.0,1.0,21.0,1,60,deficit,1,1,1
+female,58,893,1,Debulking,left,Parietal lobe,0,58.0,0.0,,28.0,1,60,headache,1,1,1
+female,33,900,0,Gross Total Resection,left,Parietal lobe,1,6.0,0.0,0.0,35.0,1,60,headache,1,1,1
+male,59,935,0,Subtotal Resection,left,Temporal lobe,0,3.0,1.0,0.0,182.0,1,60,deficit,1,1,1
+male,52,984,1,Subtotal Resection,right,Frontal lobe,0,63.0,1.0,,,1,60,deficit,1,1,1
+male,51,994,0,Gross Total Resection,left,Parietal lobe,0,10.6,0.0,1.0,2.0,1,60,deficit,1,1,1
+female,23,1040,0,Gross Total Resection,right,Frontal lobe,0,73.0,0.0,0.0,28.0,1,60,seizure,1,1,1
+female,19,1068,0,Biopsy,right,Parietal lobe,0,5.0,4.0,0.0,56.0,1,60,headache,1,1,1
+male,56,1071,0,Gross Total Resection,right,Temporal lobe,0,26.0,0.0,0.0,12.0,1,60,deficit,1,1,1
+female,56,1110,0,Debulking,left,Temporal lobe,0,49.0,0.0,0.0,121.0,1,60,headache,1,1,1
+female,73,1113,1,Subtotal Resection,right,Frontal lobe,0,46.0,2.0,2.0,14.0,1,60,deficit,1,1,1
+female,64,1148,0,Gross Total Resection,right,Temporal lobe,0,77.3,0.0,1.0,42.0,1,60,headache,1,1,1
+female,52,1187,0,Biopsy,right,Frontal lobe,0,36.0,1.0,1.0,0.5,1,60,deficit,1,1,1
+male,54,1194,1,Subtotal Resection,left,Frontal lobe,0,42.0,4.0,0.0,,1,60,,1,1,1
+male,44,1250,1,Biopsy,right,Thalamus,1,30.4,0.0,0.0,,1,60,,1,1,1
+female,54,1260,0,Gross Total Resection,left,Parietal lobe,0,35.0,0.0,0.0,42.0,1,60,headache,1,1,1
+female,67,1276,1,Gross Total Resection,left,Parietal lobe,0,47.0,0.0,0.0,,1,60,deficit,1,1,1
+female,47,1320,0,Gross Total Resection,right,Parietal lobe,0,43.0,1.0,2.0,7.0,1,60,seizure,1,1,1
+male,57,1442,0,Gross Total Resection,right,Frontal lobe,0,3.8,1.0,1.0,21.0,1,60,headache,1,1,1
+female,75,1446,0,Gross Total Resection,left,Temporal lobe,0,71.0,,3.0,14.0,0,30,seizure,1,1,1
+male,47,1480,0,Gross Total Resection,left,Temporal lobe,0,,,,1.0,1,60,seizure,1,1,1
+female,52,1585,0,Debulking,left,Frontal lobe,0,46.0,2.0,1.0,28.0,1,60,deficit,1,1,1
