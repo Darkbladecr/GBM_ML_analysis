@@ -65,7 +65,7 @@ const App = () => {
           sx_duration: '',
           chemo: '0',
           tumor_side: 'left',
-          tumor_location: 'cerebellum',
+          tumor_location: 'corpus_callosum',
           radiotherapy: '0',
           sx_main: 'deficit',
         }}
@@ -278,15 +278,6 @@ const App = () => {
                       type="button"
                       onClick={handleChange}
                       name="tumor_location"
-                      value="cerebellum"
-                      active={values.tumor_location === 'cerebellum'}
-                    >
-                      Cerebellum
-                    </Button>
-                    <Button
-                      type="button"
-                      onClick={handleChange}
-                      name="tumor_location"
                       value="corpus_callosum"
                       active={values.tumor_location === 'corpus_callosum'}
                     >
@@ -345,6 +336,15 @@ const App = () => {
                       active={values.tumor_location === 'thalamus'}
                     >
                       Thalamus
+                    </Button>
+                    <Button
+                      type="button"
+                      onClick={handleChange}
+                      name="tumor_location"
+                      value="cerebellum"
+                      active={values.tumor_location === 'cerebellum'}
+                    >
+                      Cerebellum
                     </Button>
                   </Button.Group>
                 </Segment>
