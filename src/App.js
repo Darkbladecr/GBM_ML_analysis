@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   Button,
   Grid,
@@ -6,26 +6,34 @@ import {
   Segment,
   Message,
   Input,
-} from 'semantic-ui-react';
-import { Formik } from 'formik';
-import axios from 'axios';
+  Image,
+  Icon,
+  Container,
+  Label,
+} from "semantic-ui-react";
+import { Formik } from "formik";
+import axios from "axios";
 
 const style = {
   h1: {
-    marginTop: '3em',
+    // marginTop: "3em",
+  },
+  flex: {
+    flex: 1,
+    flexDirection: "row",
   },
   h2: {
-    margin: '4em 0em 2em',
+    margin: "4em 0em 2em",
   },
   h3: {
-    marginTop: '2em',
-    padding: '2em 0em',
+    marginTop: "2em",
+    padding: "2em 0em",
   },
   last: {
-    marginBottom: '300px',
+    marginBottom: "300px",
   },
   filled: {
-    width: '100%',
+    width: "100%",
   },
 };
 
@@ -50,55 +58,77 @@ const App = () => {
   const [submitted, setSubmitted] = useState(false);
   return (
     <React.Fragment>
-      <Header
-        as="h1"
-        content="GBM Patient Survival Predictor"
-        style={style.h1}
-        textAlign="center"
-      />
+      <Segment>
+        <Container>
+          <Image
+            src="/cam_neuro.png"
+            size="small"
+            floated="left"
+            href="https://www.neurosurg.cam.ac.uk/research-groups/brain-tumour-imaging-lab/"
+            target="_blank"
+          />
+          <Header
+            as="h1"
+            content="GBM Patient Survival Predictor"
+            style={style.h1}
+          />
+          <Button as="div" labelPosition="right">
+            <Button icon href="https://github.com/AliLawrence/ML_GBMSurvival">
+              <Icon name="github" />
+            </Button>
+            <Label
+              as="a"
+              basic
+              href="https://github.com/AliLawrence/ML_GBMSurvival"
+            >
+              Source Code
+            </Label>
+          </Button>
+        </Container>
+      </Segment>
       <Formik
         initialValues={{
-          diagnosis_age: '',
-          sex: 'male',
-          treatment: 'biopsy',
-          idh_status: '0',
-          sx_duration: '',
-          chemo: '0',
-          tumor_side: 'left',
-          tumor_location: 'corpus_callosum',
-          radiotherapy: '0',
-          sx_main: 'deficit',
+          diagnosis_age: "",
+          sex: "male",
+          treatment: "biopsy",
+          idh_status: "0",
+          sx_duration: "",
+          chemo: "0",
+          tumor_side: "left",
+          tumor_location: "corpus_callosum",
+          radiotherapy: "0",
+          sx_main: "deficit",
         }}
         validate={(values) => {
           const errors = {};
           if (!values.diagnosis_age) {
-            errors.diagnosis_age = 'Required';
+            errors.diagnosis_age = "Required";
           } else if (!/^[0-9]+$/i.test(values.diagnosis_age)) {
-            errors.diagnosis_age = 'Age not a number';
+            errors.diagnosis_age = "Age not a number";
           }
           if (!values.sx_duration) {
-            errors.sx_duration = 'Required';
+            errors.sx_duration = "Required";
           } else if (!/^[0-9]+$/i.test(values.sx_duration)) {
-            errors.sx_duration = 'Age not a number';
+            errors.sx_duration = "Age not a number";
           }
           return errors;
         }}
         onSubmit={(values, { setSubmitting }) => {
           const tmp = { ...values };
-          setInt('diagnosis_age', tmp);
-          setInt('sx_duration', tmp);
-          setInt('chemo', tmp);
-          setInt('idh_status', tmp);
+          setInt("diagnosis_age", tmp);
+          setInt("sx_duration", tmp);
+          setInt("chemo", tmp);
+          setInt("idh_status", tmp);
 
-          setDummy('sex', tmp);
-          setDummy('treatment', tmp);
-          setDummy('tumor_location', tmp);
-          setDummy('tumor_side', tmp);
-          setDummy('radiotherapy', tmp);
-          setDummy('sx_main', tmp);
+          setDummy("sex", tmp);
+          setDummy("treatment", tmp);
+          setDummy("tumor_location", tmp);
+          setDummy("tumor_side", tmp);
+          setDummy("radiotherapy", tmp);
+          setDummy("sx_main", tmp);
 
           axios
-            .post('/predict', tmp)
+            .post("/predict", tmp)
             .then(({ data }) => {
               setResponse(data);
             })
@@ -128,7 +158,7 @@ const App = () => {
                       onClick={handleChange}
                       name="sex"
                       value="male"
-                      active={values.sex === 'male'}
+                      active={values.sex === "male"}
                     >
                       Male
                     </Button>
@@ -138,7 +168,7 @@ const App = () => {
                       onClick={handleChange}
                       name="sex"
                       value="female"
-                      active={values.sex === 'female'}
+                      active={values.sex === "female"}
                     >
                       Female
                     </Button>
@@ -154,7 +184,7 @@ const App = () => {
                     onChange={handleChange}
                     onBlur={handleBlur}
                     error={errors.diagnosis_age && touched.diagnosis_age}
-                    label={{ basic: true, content: 'years old' }}
+                    label={{ basic: true, content: "years old" }}
                     labelPosition="right"
                     placeholder="Enter age at diagnosis..."
                   />
@@ -177,7 +207,7 @@ const App = () => {
                       onClick={handleChange}
                       name="sx_main"
                       value="deficit"
-                      active={values.sx_main === 'deficit'}
+                      active={values.sx_main === "deficit"}
                     >
                       Neurological deficit
                     </Button>
@@ -187,7 +217,7 @@ const App = () => {
                       onClick={handleChange}
                       name="sx_main"
                       value="headache"
-                      active={values.sx_main === 'headache'}
+                      active={values.sx_main === "headache"}
                     >
                       Headache
                     </Button>
@@ -197,7 +227,7 @@ const App = () => {
                       onClick={handleChange}
                       name="sx_main"
                       value="seizure"
-                      active={values.sx_main === 'seizure'}
+                      active={values.sx_main === "seizure"}
                     >
                       Seizure
                     </Button>
@@ -213,7 +243,7 @@ const App = () => {
                     onChange={handleChange}
                     onBlur={handleBlur}
                     error={errors.sx_duration && touched.sx_duration}
-                    label={{ basic: true, content: 'days' }}
+                    label={{ basic: true, content: "days" }}
                     labelPosition="right"
                     placeholder="Symptom duration prior to diagnosis"
                   />
@@ -236,7 +266,7 @@ const App = () => {
                       onClick={handleChange}
                       name="treatment"
                       value="biopsy"
-                      active={values.treatment === 'biopsy'}
+                      active={values.treatment === "biopsy"}
                     >
                       Biopsy
                     </Button>
@@ -245,7 +275,7 @@ const App = () => {
                       onClick={handleChange}
                       name="treatment"
                       value="debulking"
-                      active={values.treatment === 'debulking'}
+                      active={values.treatment === "debulking"}
                     >
                       Debulking
                     </Button>
@@ -254,7 +284,7 @@ const App = () => {
                       onClick={handleChange}
                       name="treatment"
                       value="gross_total_resection"
-                      active={values.treatment === 'gross_total_resection'}
+                      active={values.treatment === "gross_total_resection"}
                     >
                       Gross Total Resection
                     </Button>
@@ -263,7 +293,7 @@ const App = () => {
                       onClick={handleChange}
                       name="treatment"
                       value="subtotal_resection"
-                      active={values.treatment === 'subtotal_resection'}
+                      active={values.treatment === "subtotal_resection"}
                     >
                       Subtotal Resection
                     </Button>
@@ -279,7 +309,7 @@ const App = () => {
                       onClick={handleChange}
                       name="tumor_location"
                       value="corpus_callosum"
-                      active={values.tumor_location === 'corpus_callosum'}
+                      active={values.tumor_location === "corpus_callosum"}
                     >
                       Corpus Callosum
                     </Button>
@@ -288,7 +318,7 @@ const App = () => {
                       onClick={handleChange}
                       name="tumor_location"
                       value="exterenal_capsule"
-                      active={values.tumor_location === 'exterenal_capsule'}
+                      active={values.tumor_location === "exterenal_capsule"}
                     >
                       External Capsule
                     </Button>
@@ -297,7 +327,7 @@ const App = () => {
                       onClick={handleChange}
                       name="tumor_location"
                       value="frontal_lobe"
-                      active={values.tumor_location === 'frontal_lobe'}
+                      active={values.tumor_location === "frontal_lobe"}
                     >
                       Frontal Lobe
                     </Button>
@@ -306,7 +336,7 @@ const App = () => {
                       onClick={handleChange}
                       name="tumor_location"
                       value="parietal_lobe"
-                      active={values.tumor_location === 'parietal_lobe'}
+                      active={values.tumor_location === "parietal_lobe"}
                     >
                       Parietal Lobe
                     </Button>
@@ -315,7 +345,7 @@ const App = () => {
                       onClick={handleChange}
                       name="tumor_location"
                       value="temporal_lobe"
-                      active={values.tumor_location === 'temporal_lobe'}
+                      active={values.tumor_location === "temporal_lobe"}
                     >
                       Temporal Lobe
                     </Button>
@@ -324,7 +354,7 @@ const App = () => {
                       onClick={handleChange}
                       name="tumor_location"
                       value="occipital_lobe"
-                      active={values.tumor_location === 'occipital_lobe'}
+                      active={values.tumor_location === "occipital_lobe"}
                     >
                       Occipital Lobe
                     </Button>
@@ -333,7 +363,7 @@ const App = () => {
                       onClick={handleChange}
                       name="tumor_location"
                       value="thalamus"
-                      active={values.tumor_location === 'thalamus'}
+                      active={values.tumor_location === "thalamus"}
                     >
                       Thalamus
                     </Button>
@@ -342,7 +372,7 @@ const App = () => {
                       onClick={handleChange}
                       name="tumor_location"
                       value="cerebellum"
-                      active={values.tumor_location === 'cerebellum'}
+                      active={values.tumor_location === "cerebellum"}
                     >
                       Cerebellum
                     </Button>
@@ -362,7 +392,7 @@ const App = () => {
                       onClick={handleChange}
                       name="tumor_side"
                       value="left"
-                      active={values.tumor_side === 'left'}
+                      active={values.tumor_side === "left"}
                     >
                       Left
                     </Button>
@@ -372,7 +402,7 @@ const App = () => {
                       onClick={handleChange}
                       name="tumor_side"
                       value="right"
-                      active={values.tumor_side === 'right'}
+                      active={values.tumor_side === "right"}
                     >
                       Right
                     </Button>
@@ -382,7 +412,7 @@ const App = () => {
                       onClick={handleChange}
                       name="tumor_side"
                       value="both"
-                      active={values.tumor_side === 'both'}
+                      active={values.tumor_side === "both"}
                     >
                       Both
                     </Button>
@@ -402,7 +432,7 @@ const App = () => {
                       onClick={handleChange}
                       name="radiotherapy"
                       value="0"
-                      active={values.radiotherapy === '0'}
+                      active={values.radiotherapy === "0"}
                     >
                       None given
                     </Button>
@@ -412,7 +442,7 @@ const App = () => {
                       onClick={handleChange}
                       name="radiotherapy"
                       value="30"
-                      active={values.radiotherapy === '30'}
+                      active={values.radiotherapy === "30"}
                     >
                       30gy
                     </Button>
@@ -422,7 +452,7 @@ const App = () => {
                       onClick={handleChange}
                       name="radiotherapy"
                       value="40"
-                      active={values.radiotherapy === '40'}
+                      active={values.radiotherapy === "40"}
                     >
                       40gy
                     </Button>
@@ -432,7 +462,7 @@ const App = () => {
                       onClick={handleChange}
                       name="radiotherapy"
                       value="60"
-                      active={values.radiotherapy === '60'}
+                      active={values.radiotherapy === "60"}
                     >
                       60gy
                     </Button>
@@ -448,7 +478,7 @@ const App = () => {
                       onClick={handleChange}
                       name="idh_status"
                       value="0"
-                      active={values.idh_status === '0'}
+                      active={values.idh_status === "0"}
                     >
                       Negative
                     </Button>
@@ -458,7 +488,7 @@ const App = () => {
                       onClick={handleChange}
                       name="idh_status"
                       value="1"
-                      active={values.idh_status === '1'}
+                      active={values.idh_status === "1"}
                     >
                       Positive
                     </Button>
@@ -478,7 +508,7 @@ const App = () => {
                       onClick={handleChange}
                       name="chemo"
                       value="0"
-                      active={values.chemo === '0'}
+                      active={values.chemo === "0"}
                     >
                       Not given
                     </Button>
@@ -488,7 +518,7 @@ const App = () => {
                       onClick={handleChange}
                       name="chemo"
                       value="1"
-                      active={values.chemo === '1'}
+                      active={values.chemo === "1"}
                     >
                       Given
                     </Button>
