@@ -6,6 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+jupyter = "*"
+numpy = "*"
+notebook = "*"
+matplotlib = "*"
+imblearn = "*"
+graphviz = "*"
+pydotplus = "*"
 sklearn = "*"
 pandas = "*"
 joblib = "*"
@@ -13,4 +20,4 @@ flask = "*"
 gunicorn = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.9"
