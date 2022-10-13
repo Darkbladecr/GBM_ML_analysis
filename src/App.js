@@ -45,14 +45,6 @@ const PredictionResponse = ({ message, positive }) => {
   );
 };
 
-const setInt = (key, data) => {
-  data[key] = parseInt(data[key]);
-};
-const setDummy = (key, data) => {
-  data[`${key}_${data[key]}`] = 1;
-  delete data[key];
-};
-
 const App = () => {
   const [response, setResponse] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -90,9 +82,9 @@ const App = () => {
         initialValues={{
           diagnosis_age: "",
           sex: "male",
-          treatment: "biopsy",
+          treatment: "gross_total_resection",
           idh_status: "0",
-          sx_duration: "",
+          mgmt_status: "0",
           chemo: "0",
           tumor_side: "left",
           tumor_location: "corpus_callosum",
@@ -106,29 +98,30 @@ const App = () => {
           } else if (!/^[0-9]+$/i.test(values.diagnosis_age)) {
             errors.diagnosis_age = "Age not a number";
           }
-          if (!values.sx_duration) {
-            errors.sx_duration = "Required";
-          } else if (!/^[0-9]+$/i.test(values.sx_duration)) {
-            errors.sx_duration = "Age not a number";
-          }
           return errors;
         }}
         onSubmit={(values, { setSubmitting }) => {
-          const tmp = { ...values };
-          setInt("diagnosis_age", tmp);
-          setInt("sx_duration", tmp);
-          setInt("chemo", tmp);
-          setInt("idh_status", tmp);
-
-          setDummy("sex", tmp);
-          setDummy("treatment", tmp);
-          setDummy("tumor_location", tmp);
-          setDummy("tumor_side", tmp);
-          setDummy("radiotherapy", tmp);
-          setDummy("sx_main", tmp);
+          const obj = {
+            Sex: values.sex === "female" ? 1 : 0,
+            Age: parseInt(values.diagnosis_age),
+            Biopsy: values.treatment === "biopsy" ? 1 : 0,
+            IcRET: values.treatment === "subtotal_resection" ? 1 : 0,
+            CRET: values.treatment === "gross_total_resection" ? 1 : 0,
+            Tside: values.tumor_side === "left" ? 0 : 1, // check
+            IDHStatus: values.idh_status === "1" ? 1 : 0,
+            MGMT: values.mgmt_status === "1" ? 1 : 0,
+            SxDeficit: values.sx_main === "deficit" ? 1 : 0,
+            SxHeadache: values.sx_main === "headache" ? 1 : 0,
+            SxSeizure: values.sx_main === "seizure" ? 1 : 0,
+            ZeroGy: values.radiotherapy === "0" ? 1 : 0,
+            ThirtyGy: values.radiotherapy === "30" ? 1 : 0,
+            FortyGy: values.radiotherapy === "40" ? 1 : 0,
+            SixtyGy: values.radiotherapy === "60" ? 1 : 0,
+            TMZ: values.chemo === "1" ? 1 : 0,
+          };
 
           axios
-            .post("/predict", tmp)
+            .post("/predict", obj)
             .then(({ data }) => {
               setResponse(data);
             })
@@ -236,21 +229,42 @@ const App = () => {
               </Grid.Column>
               <Grid.Column>
                 <Segment>
-                  <Input
-                    style={style.filled}
-                    name="sx_duration"
-                    value={values.sx_duration}
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    error={errors.sx_duration && touched.sx_duration}
-                    label={{ basic: true, content: "days" }}
-                    labelPosition="right"
-                    placeholder="Symptom duration prior to diagnosis"
+                  <Header
+                    as="h3"
+                    content="Tumor hemisphere"
+                    textAlign="center"
                   />
-                  <br />
-                  {errors.sx_duration &&
-                    touched.sx_duration &&
-                    errors.sx_duration}
+                  <Button.Group style={style.filled}>
+                    <Button
+                      type="button"
+                      onClick={handleChange}
+                      name="tumor_side"
+                      value="left"
+                      active={values.tumor_side === "left"}
+                    >
+                      Left
+                    </Button>
+                    <Button.Or />
+                    <Button
+                      type="button"
+                      onClick={handleChange}
+                      name="tumor_side"
+                      value="right"
+                      active={values.tumor_side === "right"}
+                    >
+                      Right
+                    </Button>
+                    <Button.Or />
+                    <Button
+                      type="button"
+                      onClick={handleChange}
+                      name="tumor_side"
+                      value="both"
+                      active={values.tumor_side === "both"}
+                    >
+                      Both
+                    </Button>
+                  </Button.Group>
                 </Segment>
               </Grid.Column>
               <Grid.Column>
@@ -261,24 +275,6 @@ const App = () => {
                     textAlign="center"
                   />
                   <Button.Group vertical style={style.filled}>
-                    <Button
-                      type="button"
-                      onClick={handleChange}
-                      name="treatment"
-                      value="biopsy"
-                      active={values.treatment === "biopsy"}
-                    >
-                      Biopsy
-                    </Button>
-                    <Button
-                      type="button"
-                      onClick={handleChange}
-                      name="treatment"
-                      value="debulking"
-                      active={values.treatment === "debulking"}
-                    >
-                      Debulking
-                    </Button>
                     <Button
                       type="button"
                       onClick={handleChange}
@@ -297,10 +293,19 @@ const App = () => {
                     >
                       Subtotal Resection
                     </Button>
+                    <Button
+                      type="button"
+                      onClick={handleChange}
+                      name="treatment"
+                      value="biopsy"
+                      active={values.treatment === "biopsy"}
+                    >
+                      Biopsy
+                    </Button>
                   </Button.Group>
                 </Segment>
               </Grid.Column>
-              <Grid.Column>
+              {/* <Grid.Column>
                 <Segment>
                   <Header as="h3" content="Tumor location" textAlign="center" />
                   <Button.Group vertical style={style.filled}>
@@ -378,43 +383,29 @@ const App = () => {
                     </Button>
                   </Button.Group>
                 </Segment>
-              </Grid.Column>
+              </Grid.Column> */}
               <Grid.Column>
                 <Segment>
-                  <Header
-                    as="h3"
-                    content="Tumor hemisphere"
-                    textAlign="center"
-                  />
+                  <Header as="h3" content="MGMT status" textAlign="center" />
                   <Button.Group style={style.filled}>
                     <Button
                       type="button"
                       onClick={handleChange}
-                      name="tumor_side"
-                      value="left"
-                      active={values.tumor_side === "left"}
+                      name="mgmt_status"
+                      value="0"
+                      active={values.mgmt_status === "0"}
                     >
-                      Left
+                      Negative
                     </Button>
                     <Button.Or />
                     <Button
                       type="button"
                       onClick={handleChange}
-                      name="tumor_side"
-                      value="right"
-                      active={values.tumor_side === "right"}
+                      name="mgmt_status"
+                      value="1"
+                      active={values.mgmt_status === "1"}
                     >
-                      Right
-                    </Button>
-                    <Button.Or />
-                    <Button
-                      type="button"
-                      onClick={handleChange}
-                      name="tumor_side"
-                      value="both"
-                      active={values.tumor_side === "both"}
-                    >
-                      Both
+                      Positive
                     </Button>
                   </Button.Group>
                 </Segment>
@@ -530,7 +521,9 @@ const App = () => {
               <Button
                 fluid
                 primary
-                disabled={Object.keys(errors).length > 0}
+                disabled={
+                  Object.keys(errors).length > 0 || values.diagnosis_age === ""
+                }
                 loading={isSubmitting}
                 type="submit"
               >
