@@ -103,7 +103,7 @@ const App = () => {
         onSubmit={(values, { setSubmitting }) => {
           const obj = {
             Sex: values.sex === "female" ? 1 : 0,
-            Age: parseInt(values.diagnosis_age),
+            Age: parseInt(values.diagnosis_age) < 69 ? 1 : 0,
             Biopsy: values.treatment === "biopsy" ? 1 : 0,
             IcRET: values.treatment === "subtotal_resection" ? 1 : 0,
             CRET: values.treatment === "gross_total_resection" ? 1 : 0,
@@ -282,7 +282,7 @@ const App = () => {
                       value="gross_total_resection"
                       active={values.treatment === "gross_total_resection"}
                     >
-                      Gross Total Resection
+                      Complete Resection of Enhancing Tumor (CRET)
                     </Button>
                     <Button
                       type="button"
@@ -291,7 +291,7 @@ const App = () => {
                       value="subtotal_resection"
                       active={values.treatment === "subtotal_resection"}
                     >
-                      Subtotal Resection
+                      Incomplete Resection of Enhancing Tumor (IcRET)
                     </Button>
                     <Button
                       type="button"
@@ -386,7 +386,11 @@ const App = () => {
               </Grid.Column> */}
               <Grid.Column>
                 <Segment>
-                  <Header as="h3" content="MGMT status" textAlign="center" />
+                  <Header
+                    as="h3"
+                    content="MGMT status >10%"
+                    textAlign="center"
+                  />
                   <Button.Group style={style.filled}>
                     <Button
                       type="button"

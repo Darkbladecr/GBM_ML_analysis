@@ -20,8 +20,8 @@ def predict():
     data = df[model_columns]
     prediction = lr.predict(data)
     if prediction[0] == 1:
-        return jsonify({"message": "Patient likely to survive >12 months", "positive": True})
-    return jsonify({"message": "Patient unlikely to survive 12 months", "positive": False})
+        return jsonify({"message": "Patient likely to survive >18 months", "positive": True})
+    return jsonify({"message": "Patient unlikely to survive 18 months", "positive": False})
 
 
 if __name__ == '__main__':
